@@ -118,6 +118,7 @@ position: relative;
 .second_box {
  background-image: url(img/blond.jpg); 
       background-size: cover;
+      background-attachment: fixed;
 }
 .second_text {
   width: 49%;
