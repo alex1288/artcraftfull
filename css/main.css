@@ -26,7 +26,7 @@ footer p{color:#f0ecec;}
 
 section{
 z-index: 999;
-height: 1080px;
+height: 100vh;
 }
 
 .top_line{
