@@ -119,6 +119,8 @@ position: relative;
  background-image: url(img/blond.jpg); 
       background-size: cover;
       background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: 50%;
 }
 .second_text {
   width: 49%;
