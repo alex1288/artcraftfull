@@ -10,7 +10,7 @@ body{font-family:"RobotoRegular", sans-serif;font-size:16px;z-index:100;}
 header{z-index:1000;}
 footer{z-index:-1;bottom:0px;width:100%;margin:auto;text-align:center;}
 h1{font-size:30px;line-height:36px;margin-bottom:15px;}
-h2{font-size:36px;font-weight:300;text-transform:uppercase;color:#ffffffc9;text-align:center;margin-top:0px;padding-top:25px;}
+h2{font-size:36px;font-weight:300;text-transform:uppercase;color:#ffffffc9;text-align:center;margin-top:0px;padding-top:25px;margin-top: 25px;}
 h2:after{content:" ";background-color:rgba(255, 219, 77, 1);width:25px;height:6px;margin:5px auto 0;position:relative;display:block;}
 h3{font-size:21px;line-height:25px;font-weight:300;color:#333344;}
 ul{list-style-type:none;padding-left:0;}
@@ -61,7 +61,10 @@ position: relative;
     display: block;
 }
 
-
+.parallax{
+  height: 100%;
+  display: block;
+}
 
 .main_box {
 
@@ -117,43 +120,178 @@ color: #ffffff4a;
 
 
 .second_box {
- background-image: url(img/voice2.jpg); 
+ //background-image: url(http://oktava.net.ru/ccnmsed/eduard_surovyy_skachat_vse_albomy_20317_104.jpg); 
       background-size: cover;
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-position: 50%;
 }
 .second_text {
+  margin-top: 10%;
+  position: relative;
   width: 49%;
   display: inline-block;
   text-align: center;
 }
 
 
+.second_text h2{
+font-size: 60px;
+}
+
+.second_text p{
+color: #ffffffc9;
+    font-size: 21px;
+    margin-top: 25px;
+}
+
+.second_text a{
+  color: #fff;
+  font-size: 30px;
+  padding: 5px 25px;
+  border: 2px solid #fff;
+  text-decoration: none;
+  background-color: transparent;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+      top: 15px;
+    position: relative;
+}
+
+.second_text a:hover{ 
+  background-color: #fff;
+  color: #000;
+
+  }
+.second_text h2:after {
+    content: " ";
+    background-color: rgba(255, 219, 77, 1);
+    width: 45px;
+    height: 9px;
+    margin: 5px auto 0;
+    position: relative;
+    display: block;
+    text-align: left;
+    left: 0px;
+    margin-top: 0px;
+
+    position: absolute;
+}
+
+
+
 
 .third_box {
-   background-image: url(img/blond1z.jpg); 
+  // background-image: url(img/blond1z.jpg); 
       background-size: cover;
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-position: 50%;
+
+}
+.third_text {
+  margin-top: 10%;
+  position: relative;
+  width: 49%;
+  display: inline-block;
+  text-align: center;
 }
 
 
+.third_text h2{
+font-size: 60px;
+text-align: right;
+}
 
-
-
-
-
-/*.founders {
-   background-image: url(img/founders.jpg); 
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: 50%;
+.third_text p{
+color: #ffffffc9;
+    font-size: 21px;
+    margin-top: 25px;
 }
 
 
-.founders_text {}*/
+.third_text a{
+  color: #fff;
+  font-size: 30px;
+  padding: 5px 25px;
+  border: 2px solid #fff;
+  text-decoration: none;
+  background-color: transparent;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+      top: 15px;
+    position: relative;
+}
+
+.third_text a:hover{ 
+  background-color: #fff;
+  color: #000;
+
+  }
+
+.third_text h2:after {
+    content: " ";
+    background-color: rgba(255, 219, 77, 1);
+    width: 45px;
+    height: 9px;
+    margin: 5px auto 0;
+    position: relative;
+    display: block;
+    text-align: left;
+    right: 0;
+    margin-top: 0px;
+    position: absolute;
+}
+
+
+.teacher{
+
+}
+.teacher ul{
+  text-align: center;
+}
+.teacher ul li{
+  display: inline-block;
+  width: 24.5%;
+  vertical-align: top;
+  min-height: 150px;
+  margin: 15px 0px;
+}
+.teacher ul li h3{
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.teacher ul li p{
+  text-transform: lowercase;
+padding: 0px 5px;
+}
+.teacher ul li a{
+      position: relative;
+    bottom: 0;
+}
+.teacher_img{
+width: 90%;
+}
+.teacher_img img{
+width: 80%;
+
+    border-radius: 50%
+}
+.teacher_txt {
+position: relative;
+}
+
+.contacts {
+
+}
+
+.contacts p{
+  
+}
 
 @media only screen and (max-width:1200px){
 

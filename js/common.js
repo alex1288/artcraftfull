@@ -102,50 +102,6 @@ $(document).ready(function() {
 	});
 
 
-	$("#menu2").on("click","a", function (event) {
-		//отменяем стандартную обработку нажатия по ссылке
-		event.preventDefault();
-
-		//забираем идентификатор бока с атрибута href
-		var id  = $(this).attr('href'),
-
-		//узнаем высоту от начала страницы до блока на который ссылается якорь
-			top = $(id).offset().top;
-		
-		//анимируем переход на расстояние - top за 1500 мс
-		$('body,html').animate({scrollTop: top}, 1500);
-	});
-
-	$("#menu3").on("click","a", function (event) {
-		//отменяем стандартную обработку нажатия по ссылке
-		event.preventDefault();
-
-		//забираем идентификатор бока с атрибута href
-		var id  = $(this).attr('href'),
-
-		//узнаем высоту от начала страницы до блока на который ссылается якорь
-			top = $(id).offset().top;
-		
-		//анимируем переход на расстояние - top за 1500 мс
-		$('body,html').animate({scrollTop: top}, 1500);
-
-	});
-
-
-$("#menu4").on("click","a", function (event) {
-		//отменяем стандартную обработку нажатия по ссылке
-		event.preventDefault();
-
-		//забираем идентификатор бока с атрибута href
-		var id  = $(this).attr('href'),
-
-		//узнаем высоту от начала страницы до блока на который ссылается якорь
-			top = $(id).offset().top;
-		
-		//анимируем переход на расстояние - top за 1500 мс
-		$('body,html').animate({scrollTop: top}, 1500);
-
-	});
 
 	//Каруселька
 	//Документация: 
@@ -196,17 +152,7 @@ $("#menu4").on("click","a", function (event) {
 	// 	return false;
  // }); 
 
-$(document).ready(function(){
-	$(".bootstrap-carousel").swipe( {
-		swipeLeft: function() {
-			$(this).carousel("next");
-		},
-		swipeRight: function() {
-			$(this).carousel("prev");
-		},
-		allowPageScroll: "vertical"
-	});
-});
+
 
 
 
@@ -295,26 +241,6 @@ $("#slider").owlCarousel({
 			$preloader.delay(350).fadeOut('slow');
 		});
 		// Прелоадер
-
-$(function() {     
-  //при нажатии на ссылку, содержащую Thumbnail
-  $('a.thumbnail').click(function(e) {
-    //отменить стандартное действие браузера
-    e.preventDefault();
-    //присвоить атрибуту scr элемента img модального окна
-    //значение атрибута scr изображения, которое обёрнуто
-    //вокруг элемента a, на который нажал пользователь
-    $('#image-modal .modal-body img').attr('src', $(this).find('img').attr('src'));
-    //открыть модальное окно
-    $("#image-modal").modal('show');
-  });
-  //при нажатию на изображение внутри модального окна 
-  //закрыть его (модальное окно)
-  $('#image-modal .modal-body img').on('click', function() {
-    $("#image-modal").modal('hide')
-  });
-});
-
 
 
 
