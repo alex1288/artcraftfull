@@ -10,7 +10,7 @@ body{font-family:"RobotoRegular", sans-serif;font-size:16px;z-index:100;}
 header{z-index:1000;}
 footer{z-index:-1;bottom:0px;width:100%;margin:auto;text-align:center;}
 h1{font-size:30px;line-height:36px;margin-bottom:15px;}
-h2{font-size:36px;font-weight:300;text-transform:uppercase;color:#585550;text-align:center;margin-top:0px;padding-top:25px;}
+h2{font-size:36px;font-weight:300;text-transform:uppercase;color:#ffffffc9;text-align:center;margin-top:0px;padding-top:25px;}
 h2:after{content:" ";background-color:rgba(255, 219, 77, 1);width:25px;height:6px;margin:5px auto 0;position:relative;display:block;}
 h3{font-size:21px;line-height:25px;font-weight:300;color:#333344;}
 ul{list-style-type:none;padding-left:0;}
@@ -70,7 +70,7 @@ position: relative;
 }
 .main_text{
     color: #fff;
-    margin-top: 245px;
+    margin-top: 21%;
     position: relative;
     left: 100px;
         width: 80%;
@@ -81,11 +81,11 @@ position: relative;
   color:#ffffffad;
 }
 .main_text p{
-    color: #ffffff0f;
+color: #ffffff4a;
     font-size: 60px;
-    margin-top: -304px;
+    margin-top: -351px;
     position: absolute;
-    left: 101px;
+    left: 113px;
 }
 .main_text span{
   color: #fff;
@@ -116,7 +116,7 @@ position: relative;
 
 
 .second_box {
- background-image: url(img/blond1.jpg); 
+ background-image: url(img/voice2.jpg); 
       background-size: cover;
       background-attachment: fixed;
       background-repeat: no-repeat;
@@ -130,10 +130,29 @@ position: relative;
 
 
 
+.third_box {
+   background-image: url(img/blond1z.jpg); 
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: 50%;
+}
 
 
 
 
+
+
+
+/*.founders {
+   background-image: url(img/founders.jpg); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50%;
+}
+
+
+.founders_text {}*/
 
 @media only screen and (max-width:1200px){
 
