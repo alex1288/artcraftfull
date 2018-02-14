@@ -74,9 +74,9 @@ position: relative;
 }
 .main_text{
     color: #fff;
-    margin-top: 21%;
+    margin-top: 15%;
     position: relative;
-    left: 100px;
+   // left: 100px;
         width: 80%;
 }
 .main_text h1{
@@ -87,8 +87,8 @@ position: relative;
 .main_text p{
 color: #ffffff4a;
     font-size: 60px;
-    margin-top: -351px;
-    position: absolute;
+   // margin-top: -351px;
+    //position: absolute;
     left: 113px;
 }
 .main_text span{
@@ -96,6 +96,10 @@ color: #ffffff4a;
   font-size: 30px;
   //top: -16px;
   position: relative;
+}
+.main_text img{
+  position: relative;
+  display: block;
 }
 .main_text a{
   color: #fff;
